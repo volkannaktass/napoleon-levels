@@ -156,8 +156,8 @@ pricePYearly =  str.tostring(pyearlyOpen) + ', ' + i_pyoStr
 
 priceMondayLow =  str.tostring(mondayLow) + ', ' + i_monlStr
 priceMondayHigh =  str.tostring(mondayHigh) + ', ' + i_monhStr
-
-
+//priceMondayLow = i_monlStr
+//priceMondayHigh = i_monhStr
 //----------------------------- Securities -----------------------------
 
 
@@ -382,4 +382,3 @@ if barstate.islast
             f_drawCompleteLine(0, dailyLow, dailyTime, i_dailyLColor, i_dlStr)
         if i_isPDailyLEnabled
             f_drawCompleteLine(0, pdailyLow, pdailyTime, i_pdailyLColor, i_pdlStr)
- 
